@@ -70,37 +70,87 @@ Stručný přehled probírané látky včetně užitečných odkazů
 #### Užitečné odkazy:
 - EEEI standard konečné artimetiky - kalkulačka: https://www.h-schmidt.net/FloatConverter/IEEE754.html
 
+---
+
 ### Lekce 3
 
 - Statické a dynamické pole
+   - datové konejnery [std::vector](https://www.geeksforgeeks.org/cpp/vector-in-cpp-stl/) (alternativně [zde](https://learn.microsoft.com/cs-cz/cpp/standard-library/vector-class?view=msvc-170)) a [std::array](https://www.geeksforgeeks.org/cpp/stdarray-in-cpp/) (alternativně [zde](https://learn.microsoft.com/cs-cz/cpp/standard-library/array-class-stl?view=msvc-170))
 - Reference a pointery
+
+---
 
 ### Lekce 4
 
 - Vícerozměrné pole
 - Funkce
-- [Datové kontejnery standardní knihovny](https://www.geeksforgeeks.org/cpp/containers-cpp-stl/)
-- [Datové kontejnery - detailní přehled](https://cplusplus.com/reference/stl/)
+
+__PREZENTACE SKUPINOVÝCH PROJEKTŮ__ (přesunuto z lekce 3): Popsání vybraného projektu, co je vstup, co je výstup, jaké kroky a procesy musí program obsahovat.
+3-5 minut, prezentace (stačí 1/2 slide) či na tabuli.
+__ÚKOL (DOPORUČENÝ):__ Lineární advekce.
+
+---
 
 ### Lekce 5
 
-- Smart pointery
-- Knihovna STD I.
-- Lambda funkce II.
+- Opakování základních konceptů (výpis, pole, funkce, cykly, podmínky).
+
+- (Přesunuto): Smart pointery
+- (Přesunuto): Knihovna STD I.
+- (Přesunuto): Lambda funkce I.
+
+- [Datové kontejnery standardní knihovny](https://www.geeksforgeeks.org/cpp/containers-cpp-stl/)
+- [Datové kontejnery - detailní přehled](https://cplusplus.com/reference/stl/)
+
+---
 
 ### Lekce 6
 
 - Objektově orientované programování I: Třídy a struktury
+   - úvod
+   - data a member functions třídy
+   - koncept vlastnictví
+
+- [Odkaz na úvod do objektově orientovaného programování v C++](https://www.geeksforgeeks.org/cpp/object-oriented-programming-in-cpp/)
+- [Detailnější úvod do C++ tříd](https://cplusplus.com/doc/tutorial/classes/) a ještě jeden [alternativní zdroj s ukázkou možností tříd a struktur](https://learn.microsoft.com/en-us/cpp/cpp/classes-and-structs-cpp?view=msvc-170)
+
+- (Doplňkové): Šablonové programování: Ukázky k šablonám jsou v adresáři: `concepts/templates`
+      Dále pak:
+      -  https://learn.microsoft.com/en-us/cpp/cpp/templates-cpp?view=msvc-170
+
+__ÚKOL (POVINNÝ):__ Ve složce 6 lekce najdete [neúplný kód implementující třídu kruh](https://github.com/tomashalada/pia1/blob/main/lekce6/kruh.cpp).
+Doplňte příslušné funkce pro výpočet obvodu a obsahu, konstruktory a nastavení poloměru.
+Výsledek nahrajte do vlastního repozitáře.
+
+---
 
 ### Lekce 7
 
+
+- Objektově orientované programování II: Třídy a struktury
+   - přetěžování operátorů ([ukázka](https://github.com/tomashalada/pia1/blob/main/lekce6/matrix.cpp))
+   - dědičnost
+   - (pohádka o) šablonové programování
 - Referenční kontrola samosatných prací
+
+__PREZENTACE SKUPINOVÝCH PROJEKTŮ__ (přesunuto z lekce 3): Popsání vstupu a výstupu, pseudokód a rozvržení vytvářeného programu. Jaké algoritmizační a programové prvky budete používat.
+3-5 minut, prezentace (stačí 1/2 slide) či na tabuli.
+
+---
 
 ### Lekce 8
 
-- Objektově orientované programování I: Třídy a struktury
+- Objektově orientované programování II: Třídy a struktury
    - dědičnost
-   - šablonové programování
+   - (pohádka o) šablonové programování
+
+- Co dělá překladač a jeho dodatečné argumenty
+- Kompilace pomocí `CMake` a `make`, členění a struktura programu
+
+- [Tutoriál k práci s CMake](https://hsf-training.github.io/hsf-training-cmake-webpage/01-intro/index.html), případně [oficiální návod pro práci s CMake](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
+- [Minimalistická ukázka práce s Makefile](https://www.geeksforgeeks.org/cpp/makefile-in-c-and-its-applications/)
+
+---
 
 ### Lekce 9
 

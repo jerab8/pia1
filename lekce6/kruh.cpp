@@ -68,7 +68,14 @@ Kruh vytvorKruh()
 int main()
 {
 
+<<<<<<< HEAD
    Kruh poleKruhu[] = { vytvorKruh<2>(), vytvorKruh<3>(), vytvorKruh<4>() };
+=======
+   float druhyRaidus = 4;
+   Kruh druhyKruh( druhyRaidus );
+   std::cout << "Plocha kruhu:" << prvniKruh.spocitejPlochu() << std::endl;;
+   std::cout << "Obvod kruhu:" << prvniKruh.spocitejObvod() << std::endl;
+>>>>>>> upstream/main
 
    for ( const Kruh &kruh : poleKruhu )
    {
